@@ -1,0 +1,22 @@
+h2[id], p[id] {
+    background-color: aquamarine;
+}
+
+a[href="#"] {
+    background-color: blueviolet;
+}
+
+/*  ^ να ξεκινάει με την λέξη που θα γράψουμε */
+*[class^="info"] {
+    background-color: chocolate;
+}
+
+/*   * το βάζουμε για να βρούμε την λέζη που θέλουμε να εμπεριέχει  */
+*[class*="text"] {
+    color: red;
+}
+
+/*   $ το βάζουμε για να βρούμε την λέξη που θα περιέχει στο τέλος */
+h2[class$="title"]{
+    font-size: italic;
+}

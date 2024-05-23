@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for first container */
+.flex-container-1 {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+
+header {
+    background-color: tomato;
+    flex: 0 100%;  
+    /* αν εχει δυο τιμες η πρωτη ειναι μεγαλωσε ή μικρυνε (0 ή 1) το flex το κανουμε 1 και η δευτερη για να παρει το μεγοθος που θελουμε π.χ. 100% ή 100px   (grow-shrink-size)*/
+}
+
+.aside-1 {
+    background-color: gold;
+    flex: 1 100px;
+}
+
+.main {
+    background-color: deepskyblue;
+    text-align: center;
+    flex: 3 100px;
+}
+
+.aside-2 {
+    background-color: hotpink;
+    flex: 1 100px;
+}
+
+footer {
+    background-color: lightgreen;
+    flex: 0 100%;
+}
+
+.flex-container-2 {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.aside-3-left {
+    background-color: gold;
+    flex: 0 30%;
+}
+
+.aside-3-right {
+    flex: 0 70%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.aside-3-right .main{
+    flex: 3;
+}
+
+.aside-3-right .aside-4 {
+    flex: 1;
+    background-color: hotpink;
+}
+.aside-3-right .footer {
+    flex: 0 100%;
+}
+
+@media all and (max-width:800px) {
+    .flex-container-1 {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .aside-1 {
+        flex: 0 100%;
+    }
+
+    .main {
+        flex: 0 100%;
+    }
+
+    .aside-2 {
+        flex: 0 100%;
+    }
+}
+

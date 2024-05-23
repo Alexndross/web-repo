@@ -1,0 +1,32 @@
+.container {
+    border: 1px solid black;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box1 {
+    width: 300px;
+    height: 200px;
+    background-color: beige;
+    border: 1px solid black;
+    /* στοιχίζει οριζόντι το περιεχόμενο στο κέντρο */
+    text-align: center; 
+    /* στοιχίζει κάθετα το περιεχόμενο στο κέντρο */
+    line-height: 200px;
+    /* με την φορά του ρολογιού πάνω-δεξιά-κάτω-αριστερά */
+    margin: 30px 0px 30px 0px;
+    /* πάνω-κατω   και  δεξιά-αριστερα   */
+    /* margin: 30px 20px;   */
+} 
+
+.box2 {
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}

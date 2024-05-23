@@ -1,0 +1,15 @@
+.star {
+    color: red;
+}
+
+body {
+    border: 1px solid black;
+    border-radius: 2cap;   
+}
+
+form {
+    margin-top: 0.5%;
+    margin-bottom: 1.5%;
+    margin-left: 1%;
+    margin-right: auto;
+}
