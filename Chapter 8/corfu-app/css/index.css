@@ -62,3 +62,7 @@ header {
 footer {
     background-color: black;
 }
+
+.carousel-item img {
+    height: 500px;
+}
